@@ -10,7 +10,11 @@ const GestureHandlerRootViewContext = React.createContext(false);
 
 type Props = PropsWithChildren<Record<string, unknown>>;
 
-export default function GestureHandlerRootView({ children, isForced = false, ...rest }: Props) {
+export default function GestureHandlerRootView({
+  children,
+  isForced = false,
+  ...rest
+}: Props) {
   return (
     <GestureHandlerRootViewContext.Consumer>
       {(available) => {
