@@ -1,0 +1,1 @@
+{"version":3,"names":["TouchableNativeFeedback"],"sources":["TouchableNativeFeedback.tsx"],"sourcesContent":["import { TouchableNativeFeedback } from 'react-native';\n\nexport default TouchableNativeFeedback;\n"],"mappings":"AAAA,SAASA,uBAAuB,QAAQ,cAAc;AAEtD,eAAeA,uBAAuB"}

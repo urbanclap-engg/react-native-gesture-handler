@@ -1,0 +1,1 @@
+{"version":3,"names":["_reactNative","require","_default","TouchableNativeFeedback","exports","default"],"sources":["TouchableNativeFeedback.tsx"],"sourcesContent":["import { TouchableNativeFeedback } from 'react-native';\n\nexport default TouchableNativeFeedback;\n"],"mappings":";;;;;;AAAA,IAAAA,YAAA,GAAAC,OAAA;AAAuD,IAAAC,QAAA,GAExCC,oCAAuB;AAAAC,OAAA,CAAAC,OAAA,GAAAH,QAAA"}
