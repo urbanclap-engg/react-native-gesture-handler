@@ -49,6 +49,8 @@ class GestureHandlerOrchestrator(
     return true
   }
 
+  fun isAnyHandlerActive() = gestureHandlers.any { it?.state == GestureHandler.STATE_ACTIVE }
+
   private fun scheduleFinishedHandlersCleanup() {
     if (isHandlingTouch || handlingChangeSemaphore != 0) {
       finishedHandlersCleanupScheduled = true
